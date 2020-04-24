@@ -14,7 +14,7 @@ class Bus : public Car
       Bus(int number_of_seats, int speed, char *brand);
       ~Bus();
       Bus(Bus &b);
-      void print();
+      void print() const;
       Bus &operator=(Bus &b);
  };
 #endif // BUS_H_INCLUDED

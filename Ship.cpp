@@ -20,7 +20,7 @@ Ship::~Ship()
 
 Ship::Ship(Ship &s):Ship(s.number_of_seats,s.speed,s.brand,s.displacement){}
 
-void Ship:: print()
+void Ship:: print() const
 {
     std::cout<<"number_of_seats - "<< number_of_seats <<", ";
     std::cout<<"speed - "<< speed <<", ";

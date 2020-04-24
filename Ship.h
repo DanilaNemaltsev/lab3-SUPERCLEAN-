@@ -16,7 +16,7 @@ class Ship : public Car
       Ship(int number_of_seats, int speed, char *brand, int displacement);
       ~Ship();
       Ship(Ship &s);
-      void print() ;
+      void print() const;
       void set_displacement(int displacement);
       int get_displacement(int displacement) const;
       Ship &operator=(Ship &s);

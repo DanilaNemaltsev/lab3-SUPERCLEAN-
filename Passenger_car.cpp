@@ -19,7 +19,7 @@ Passenger_car::~Passenger_car()
 
 Passenger_car::Passenger_car(Passenger_car &pc):Passenger_car(pc.number_of_seats,pc.speed,pc.brand){}
 
-void Passenger_car:: print()
+void Passenger_car:: print() const
 {
     std::cout<<"number_of_seats - "<< number_of_seats <<", ";
     std::cout<<"speed - "<< speed <<", ";

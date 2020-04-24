@@ -16,7 +16,7 @@ class Plane : public Car
       Plane(int number_of_seats, int speed, char *brand, int flight_hours);
       ~Plane();
       Plane(Plane &pl);
-      void print() ;
+      void print() const;
       void set_flight_hours(int flight_hours);
       int get_flight_hours(int flight_hours) const;
       Plane &operator=(Plane &pl);

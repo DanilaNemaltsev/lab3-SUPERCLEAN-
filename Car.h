@@ -16,7 +16,7 @@ class Car : public Vehicle
       Car(int number_of_seats, int speed, char *brand);
       ~Car();
       Car(Car &c);
-     virtual void print() =0 ;
+     virtual void print() const =0 ;
      char * get_brand(char *brand) const;
      void set_brand(const char *brand);
      Car &operator=(Car &c);

@@ -9,39 +9,39 @@
 	"Ship.h"
 	"Manager.h"
 
-1587631387 c:\users\danil\desktop\lab3(clean)\vehicle.h
+1587711079 c:\users\danil\desktop\lab3(clean)\vehicle.h
 	<cstring>
 	<iostream>
 	<math.h>
 
-1587631388 c:\users\danil\desktop\lab3(clean)\car.h
-	<cstring>
-	<iostream>
-	<math.h>
-	"Vehicle.h"
-
-1587631387 c:\users\danil\desktop\lab3(clean)\passenger_car.h
+1587711078 c:\users\danil\desktop\lab3(clean)\car.h
 	<cstring>
 	<iostream>
 	<math.h>
 	"Vehicle.h"
-	"Car.h"
 
-1587631387 c:\users\danil\desktop\lab3(clean)\bus.h
+1587711079 c:\users\danil\desktop\lab3(clean)\passenger_car.h
 	<cstring>
 	<iostream>
 	<math.h>
 	"Vehicle.h"
 	"Car.h"
 
-1587631388 c:\users\danil\desktop\lab3(clean)\plane.h
+1587711078 c:\users\danil\desktop\lab3(clean)\bus.h
 	<cstring>
 	<iostream>
 	<math.h>
 	"Vehicle.h"
 	"Car.h"
 
-1587631387 c:\users\danil\desktop\lab3(clean)\ship.h
+1587711079 c:\users\danil\desktop\lab3(clean)\plane.h
+	<cstring>
+	<iostream>
+	<math.h>
+	"Vehicle.h"
+	"Car.h"
+
+1587711079 c:\users\danil\desktop\lab3(clean)\ship.h
 	<cstring>
 	<iostream>
 	<math.h>
@@ -69,6 +69,6 @@
 1587632105 source:c:\users\danil\desktop\lab3(clean)\ship.cpp
 	"Ship.h"
 
-1587559886 source:c:\users\danil\desktop\lab3(clean)\manager.cpp
+1587632591 source:c:\users\danil\desktop\lab3(clean)\manager.cpp
 	"Manager.h"
 

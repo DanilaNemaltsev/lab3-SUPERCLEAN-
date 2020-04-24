@@ -19,7 +19,7 @@ Bus::~Bus()
 
 Bus::Bus(Bus &b):Bus(b.number_of_seats,b.speed,b.brand){}
 
-void Bus:: print()
+void Bus:: print() const
 {
     std::cout<<"number_of_seats - "<< number_of_seats <<", ";
     std::cout<<"speed - "<< speed <<", ";

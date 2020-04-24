@@ -14,7 +14,7 @@ class Passenger_car : public Car
       Passenger_car(int number_of_seats, int speed, char *brand);
       ~Passenger_car();
       Passenger_car(Passenger_car &pc);
-      void print() ;
+      void print() const;
       Passenger_car &operator=(Passenger_car &pc);
  };
 #endif // PASSENGER_CAR_H_INCLUDED

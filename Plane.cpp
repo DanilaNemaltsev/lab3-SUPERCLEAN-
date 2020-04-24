@@ -20,7 +20,7 @@ Plane::~Plane()
 
 Plane::Plane(Plane &pl):Plane(pl.number_of_seats,pl.speed,pl.brand,pl.flight_hours){}
 
-void Plane:: print()
+void Plane:: print() const
 {
     std::cout<<"number_of_seats - "<< number_of_seats <<", ";
     std::cout<<"speed - "<< speed <<", ";

@@ -15,7 +15,7 @@ class Vehicle
     Vehicle(int number_of_seats, int speed);
     Vehicle(Vehicle &v);
      ~Vehicle();
-     virtual void print() =0 ;
+     virtual void print()const =0 ;
      void set_number_of_seats(int number_of_seats);
      void set_speed(int speed);
      int get_number_of_seats(int number_of_seats) const;
